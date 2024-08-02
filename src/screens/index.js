@@ -1,0 +1,29 @@
+export { default as Home } from "./NonAuth/Home";
+export { default as Login } from "./Auth/Login";
+export { default as NoMatch } from "./NoMatch";
+export { default as AstroRegister } from "./Auth/AstrologerRegister";
+export { default as AstrologerProfile } from "./NonAuth/AstrologerProfile";
+export { default as ConfirmOTP } from "./Auth/ConfirmOtp";
+export { default as ForgetPasssword } from "./Auth/ForgotPassword";
+export { default as UserLogin } from "./Auth/UserLogin";
+export { default as FixedEnquires } from "./NonAuth/FixedEnquires";
+export { default as AstrologerList } from "./NonAuth/AstrologerListing";
+export { default as Transaction } from "./NonAuth/Transaction";
+export { default as AddMoneyToWallet } from "./NonAuth/AddMoneyToWallet";
+export { default as Notifications } from "./NonAuth/Notifications";
+export { default as OrderHistory } from "./NonAuth/OrderHistory";
+export { default as CustomerChat } from "./NonAuth/ChatCustomer";
+export { default as AstrologerChat } from "./NonAuth/AstrologerChat";
+export { default as AstrologerEnquires } from "./NonAuth/AstroEnquires";
+export { default as SuccessPage } from "./NonAuth/SuccessPage";
+
+export { default as ChatIntakeForm } from "./NonAuth/OnlineIntakeForm";
+export { default as UserProfile } from "./NonAuth/UserProfile";
+export { default as AboutAstrology } from "./NonAuth/AboutAstrology";
+export { default as AstroDashProfile } from "./NonAuth/AstroDashProfile";
+export { default as EditAstroProfile } from "./NonAuth/EditAstroProfile";
+export { default as AstroTransaction } from "./NonAuth/AstroTransaction";
+
+export { default as AstroBankDetail } from "./NonAuth/AstroBankDetail";
+export { default as AstrologerDashboard } from "./NonAuth/AstrologerDashboard";
+export { default as MessageBroadCast } from "./NonAuth/MessageBroadCast";
